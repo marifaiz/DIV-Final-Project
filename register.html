@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+        <h1>Magis Event Planners</h1>
+        <main>
+            <div class="part2">
+               <h2>Registration form</h2>
+               <form>
+                <div class="one">
+                  Name:<br>
+				     <input type="text" name="Name"><br>
+				      Email address:<br>
+	                <input type="text" name="Email"><br>
+                  Phone Number<br>
+                  <input type="text" name="number"><br>
+               </div>
+                <div class="two">
+                   Residence:<br>
+				     <input type="text" name="Name"><br>
+				      Occupation:<br>
+                    <input type="text" name="place"><br>
+                </div>             
+               </form>
+               <a class="button" onclick="myfunction()" href="mainpanel.html">submit</a>
+               <script>   
+                  function myfunction() {
+                  var txt;
+                  var person = prompt("Please enter your event", "Birthday party");
+                  if (person == null || person == "" )
+                  {
+                    txt = "user cancelled the prompt.";
+                  } else {
+                    txt = "Hello " + person + " ! how are you today?"; 
+                  }
+               }
+               </script>
+               
+            </div>
+        </main>
+        
+</body>
+</html>

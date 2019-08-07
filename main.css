@@ -1,0 +1,33 @@
+*{box-sizing: border-box;}
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+body {
+    font-family: Arial;
+    height: 90%;
+    width: 100%; 
+    background: wheat;
+    margin: 0;
+    padding: 0; 
+    color: #ffffff;
+    background: linear-gradient(rgba(0,48,135,0.7),rgba(0,156,222,0.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work_btn{
+    margin: 20px; 
+}
+.icons{
+  display: block;
+  float: left;
+  padding: 6px;
+}
+
+#ps{
+  margin-left: 70px;
+ 
+}
